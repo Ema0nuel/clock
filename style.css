@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(138deg, #47088f, #4f13a3, #3c0c54);
+}
+
+.clock-box {
+    position: relative;
+    width: 500px;
+    color: #fff;
+}
+
+.clock-box::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -40px;
+    top: -45px;
+    border-radius: 10%;
+    background-color: #1179e2;
+}
+
+.clock-box::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -40px;
+    bottom: -45px;
+    border-radius: 50%;
+    background-color: #d413a7;
+}
+
+.clock-box ul {
+    backdrop-filter: blur(40px);
+    box-shadow: 0 1.5px 3px 0 #1d1832;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 777;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+
+
+
+/* Utility */
+li {
+    list-style: none;
+}
