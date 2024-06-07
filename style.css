@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(138deg, #47088f, #4f13a3, #3c0c54);
+    gap: 20px;
 }
 
 .clock-box {
@@ -54,6 +55,16 @@
     border-radius: 20px;
 }
 
+.footer {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer span {
+    margin-left: 2px;
+    text-transform: uppercase;
+}
 
 
 
